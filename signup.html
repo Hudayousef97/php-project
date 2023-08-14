@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form  id="signup" novalidate>
+        <label>Email:</label>
+        <input type="email" name="email" id="email" required><br>
+        
+       <label>Mobile:</label>
+        <input type="tel" name="mobile" pattern="\d{14}" id="mobile" required><br>
+        
+        <label>Full Name:</label>
+        <input type="text" name="fname" id="fname" required>
+        <input type="text" name="mname" id="mname" required >
+        <input type="text" name="lname" id="lname" required>
+        <input type="text" name="familyname" id="familyname" required><br> 
+        
+        <label>Password:</label>
+        <input type="password" name="password" id="password"><br>
+        
+         <label>Confirm Password:</label>
+        <input type="password" name="password_confirmation" id="password_confirmation" required><br>
+        
+         <label>Date of Birth:</label>
+        <input type="number" name="day" min="1" max="31" placeholder="DD" id="day" required>
+        <input type="number" name="month" min="1" max="12" placeholder="MM" id="month" required>
+        <input type="number" name="year" min="1900" max="2023" placeholder="YYYY" id="year" required><br>
+
+        
+        
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="validation.js" defer></script>
+</body>
+</html>
