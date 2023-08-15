@@ -1,0 +1,104 @@
+.body{
+    background-image: url("./removingbackgroundimages_Unsplash.webp");
+    margin: 20%;
+
+}
+.h2{
+
+font-size: xx-large;
+padding-left: 30%;
+color: aliceblue;
+}
+#signup{
+    border: 2px solid white;
+    padding: 10%;
+    
+    
+}
+#email{
+   margin-bottom: 5%;
+   margin-left: 17%;
+   padding-left: 15%;
+}
+#mobile{
+    margin-bottom: 5%;
+    margin-left: 16%;
+    padding-left: 15%;
+
+}
+#fname{
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+#lname{
+
+    margin-left: 27%; 
+    margin-bottom: 5%;
+}
+#password{
+    margin-bottom: 5%;
+    margin-left: 12%;
+    padding-left: 15%;
+}
+#password_confirmation{
+    margin-bottom: 5%;
+    padding-left: 15%;
+
+}
+#day{
+    margin-left: 8%;
+    margin-bottom: 2%;
+
+}
+
+.signup{
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-left: 5%;
+    font-weight: bolder;
+    font-size: large;
+   background-color: bisque;
+text-align: center;
+}
+
+#lema{
+font-size: medium;
+font-weight: bolder;
+color:black;
+
+}
+#lmob{
+    font-size: medium;
+    font-weight: bolder;
+    color:black;  
+}
+#lfull{
+    font-size: medium;
+/* font-weight: bolder; */
+color:black;
+}
+#lpass{
+    font-size: medium;
+    font-weight: bolder;
+    color:black; 
+}
+#lcon{
+    font-size: medium;
+    font-weight: bolder;
+    color:black; 
+}
+#ldate{
+    font-size: medium;
+    font-weight: bolder;
+    color:black;  
+
+
+}
+#signup-success{
+    background-image: url("./removingbackgroundimages_Unsplash.webp");
+    margin: 20%;
+
+}
+#success{
+    
+}
